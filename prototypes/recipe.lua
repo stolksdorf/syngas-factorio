@@ -3,7 +3,7 @@ data:extend({
 		type = "recipe",
 		name = "wood-gasification",
 		category = "chemistry",
-		enabled = true,
+		enabled = false,
 		energy_required = 5,
 		ingredients =
 		{
@@ -24,7 +24,7 @@ data:extend({
 		type = "recipe",
 		name = "coal-gasification",
 		category = "chemistry",
-		enabled = true,
+		enabled = false,
 		energy_required = 5,
 		ingredients =
 		{
@@ -33,7 +33,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="syngas", amount=5}
+			{type="fluid", name="syngas", amount=3}
 		},
 		main_product= "",
 		icon = "__syngas__/graphics/icons/coal-gasification.png",
@@ -45,7 +45,7 @@ data:extend({
 		type = "recipe",
 		name = "fischer-tropsch-process",
 		category = "chemistry",
-		enabled = true,
+		enabled = false,
 		energy_required = 5,
 		ingredients =
 		{
