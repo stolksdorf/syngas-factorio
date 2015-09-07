@@ -1,0 +1,10 @@
+{
+  "name": "syngas",
+  "version": "0.1.1",
+  "title": "Syngas",
+  "author": "stolksdorf",
+  "contact": "http://www.factorioforums.com/forum/memberlist.php?mode=viewprofile&u=8937",
+  "homepage": "",
+  "description": "Create light oil from coal or wood using syngas and the Ficher-Tropsch Process",
+  "dependencies": ["base >= 0.12.2"]
+}
